@@ -1,0 +1,75 @@
+body {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product {
+    display: center;
+    margin: 5px;
+}
+
+#cateringMenu {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+#itemCounter {
+    position: absolute;
+    right: 56px;
+    top: 0px;
+}
+
+#orderTotal {
+    margin-right: 16px;
+    text-align: right;
+}
+
+#shippingTotal {
+    margin-right: 16px;
+    text-align: right;
+}
+
+.item {
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 30px 5px 5px 5px;
+    border: solid 2px;
+}
+
+a:link {
+    font-style: italic;
+    color: green;
+}
+
+a:visited {
+    color:purple;
+    font-weight: bold ;
+}
+
+a:hover {
+    zoom:10%;
+}
+
+img {
+    color: purple;
+}
+
+.dg-nav-top {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.pagetop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}

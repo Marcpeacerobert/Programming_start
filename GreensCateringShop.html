@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="pagetop" class="dg-logo-top">Greens</div>
+        <img src="" alt="Logo">
+        <div style="display: none;position: absolute;z-index: 4;right: 52px;height: 64px;background-color: purple;letter-spacing: normal;" id="googleSearch"></div>
+       <div id="navigation" class="dg-nav-top">Home</div>
+        <h1>Catering Menu</h1>
+        <img id="cateringMenu" src="" onclick="clickCart()">
+        <h2 id="itemCounter">0</h2>
+        <p id="orderTotal"></p>
+
+        <div class="product">
+            <img src="https://drive.google.com/file/d/1JTnDVOC-AEG5RQ6wWgWOvOuVdtB3vXUa/view?usp=sharing" alt="Sweet&Salty BB">
+            <h3>Brunch</h3>
+            <button onclick="addToCart(brunch)">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="">
+            <h3>Lunch</h3>
+            <button onclick="addToCart(lunch)">Add to cart</button>
+        </div>
+
+        <div class="container">
+            <a href="https://shop.daily-greens.de/">
+            <div class="item" >About Us</div>
+            </a>
+            <a href="">
+            <div class="item" href="">Contact</div>
+            </a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
